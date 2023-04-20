@@ -47,6 +47,18 @@
   white-space: nowrap;
 
   &--lg {
+    padding-left: 2em;
+    font-weight: 700;
+  }
+}
+
+.masthead__menu-item-right {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+  float: right;
+
+  &--lg {
     padding-left: 1.5em;
     padding-left: 2em;
     font-weight: 700;
