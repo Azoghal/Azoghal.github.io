@@ -52,15 +52,6 @@
   }
 }
 
-.masthead__menu-item-right {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+.masthead_right {
   float: right;
-
-  &--lg {
-    padding-left: 1.5em;
-    padding-left: 2em;
-    font-weight: 700;
-  }
 }
