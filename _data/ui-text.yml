@@ -23,7 +23,7 @@ en: &DEFAULT_EN
   related_label              : "You May Also Enjoy"
   follow_label               : ""
   feed_label                 : ""
-  feed_shows                 : ""
+  feed_shows                 : 
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
