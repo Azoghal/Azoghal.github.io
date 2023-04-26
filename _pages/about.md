@@ -16,4 +16,4 @@ I am interested in natural language processing, programming languages and compil
 
 If you don’t find me at the computer, I’ll be playing cricket in the summer, running in the winter, or maybe I’ll finally be tackling that triathlon... Otherwise I enjoy playing and creating computer games and fiddling with my 3D printer.
 
-<p style="color:gray"> <em>*in your Spotify liked songs † so far*</em></p>
+<p style="color:gray"> <em>*in your Spotify liked songs † so far</em></p>
