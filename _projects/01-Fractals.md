@@ -23,6 +23,14 @@ gallery2:
     image_path: sier-arrow.gif
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+  - url: koch.gif
+    image_path: koch.gif
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+- url: poster.png
+    image_path: poster.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 ## Introduction
