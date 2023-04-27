@@ -109,9 +109,13 @@ burning_ship_gallery:
     image_path: BJulia1.png
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: BJulia2.png
-    image_path: BJulia2.png
-    alt: "placeholder image 2"
+  - url: BJulia3.png
+    image_path: BJulia3.png
+    alt: "placeholder image 3"
+    title: "Image 2 title caption"
+  - url: BJulia4.png
+    image_path: BJulia4.png
+    alt: "placeholder image 3"
     title: "Image 2 title caption"
 ---
 
