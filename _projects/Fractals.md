@@ -50,6 +50,36 @@ coursework_gallery:
     alt: "placeholder image 2"
     title: "Image 2 title caption"
 
+mandel_gallery:
+  - url: fractalBlueSim.png
+    image_path: fractalBlueSim.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: fractalItSim.png
+    image_path: fractalItSim.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: fractalRedSim.png
+    image_path: fractalRedSim.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: fractalSpeedSim.png
+    image_path: fractalSpeedSim.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: julia1.png
+    image_path: julia1.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: julia2.png
+    image_path: julia2.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: julia3.png
+    image_path: julia3.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+
 burning_ship_gallery:
   - url: BSWhole.png
     image_path: BSWhole.png
@@ -63,22 +93,26 @@ burning_ship_gallery:
     image_path: BSRepeat.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
-  - url: BSRepeat.png
-    image_path: BSRepeat.png
+  - url: fractalBarcode.png
+    image_path: fractalBarcode.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: BSColumn.png
     image_path: BSColumn.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
-  # - url: BJulia1.png
-  #   image_path: BJulia1.png
-  #   alt: "placeholder image 1"
-  #   title: "Image 1 title caption"
-  # - url: BJulia2.png
-  #   image_path: BJulia2.png
-  #   alt: "placeholder image 2"
-  #   title: "Image 2 title caption"
+  - url: Looks3d.png
+    image_path: Looks3d.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: BJulia1.png
+    image_path: BJulia1.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: BJulia2.png
+    image_path: BJulia2.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 ## Introduction
@@ -100,14 +134,20 @@ I was interested upon revisiting L-Systems to read about their place in the fami
 
 ## Better Renderers
 
-{% include gallery id="burning_ship_gallery" caption="Burning Ship Fractal, Burning Ship Julia Sets, 2018 (Java, Processing)" %}
+{% include gallery id="mandel_gallery" caption="Colourful Mandelbrot Sets and Julia Sets, 2018 (Java, Processing)" %}
 
 {% include gallery id="coursework_gallery" caption="The FracTool renderer, showing simultaneous views of the Mandelbrot set and a Julia set of a selected point from it, 2018 (Java, Processing)" %}
 
 My next fractal project evolved into my project for A-Level Computing coursework. This is the most fully featured renderer I've made so far. It could render the Mandelbrot set and the Burning Ship Fractal, as well as the Julia sets that correspond to each point of those sets. It also had:
-* feature 1
-* feature 2
-* feature 3
+* GUI
+* Two Rendering Windows
+* 3 Levels of Detail
+* Multithreaded Rendering
+* Multiple Colour Palettes
+* Looping Colour Palettes
+
+
+{% include gallery id="burning_ship_gallery" caption="Burning Ship Fractal, Burning Ship Julia Sets, 2018 (Java, Processing)" %}
 
 ## Next Projects
 
