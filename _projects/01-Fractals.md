@@ -2,6 +2,16 @@
 title: "Fractals"
 excerpt: "Lightning fast recap of my fractal explorations"
 collection: projects
+
+gallery1:
+  - url: /images/csharp_mandel.jpg
+    image_path: /images/csharp_mandel.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /images/java_mandel.png
+    image_path: /images/java_mandel.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 # Fractals
@@ -9,9 +19,12 @@ My interest with fractals started in 2017 when I was staying at my grandparents'
 
 ## Early Fractal Renderers
 
-<div><image src="../images/csharp_mandel.jpg"/><image  src="../images/java_mandel.png"/></div>
+<!-- <div><image src="../images/csharp_mandel.jpg"/><image  src="../images/java_mandel.png"/></div> -->
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
 Mandelbrot renderers, 2017 (C#, Java, Processing).
-My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. 
+My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. The Processing version of the renderer could be navigated naturally using the mouse, and had optimizations like increasing the number of iterations (i.e. accuracy of the fractal's shape) with the level of zoom. 
 
 ## Other Fractals
 
@@ -21,4 +34,4 @@ While
 
 ## Next Areas
 
-I'm keen to explore using shaders to and signed distance fields in my next iteration.
+I'm keen to explore using shaders to exploit parrallel computation and improve the render speed, and signed distance fields (SDFs) for 3D or higher dimensional fractals in my next project. [Inigo Quilez](https://iquilezles.org/articles/distfunctions/) has some fantastic resources about SDFs and their uses.
