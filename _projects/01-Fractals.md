@@ -27,6 +27,10 @@ gallery2:
     image_path: koch.gif
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+ - url: tree.gif
+    image_path: tree.gif
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
   - url: poster.png
     image_path: poster.png
     alt: "placeholder image 2"
