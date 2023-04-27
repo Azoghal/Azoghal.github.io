@@ -5,12 +5,12 @@ collection: projects
 order: 1
 
 gallery1:
-  - url: /images/csharp_mandel.jpg
-    image_path: /images/csharp_mandel.jpg
+  - url: csharp_mandel.jpg
+    image_path: csharp_mandel.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: /images/java_mandel.png
-    image_path: /images/java_mandel.png
+  - url: java_mandel.png
+    image_path: java_mandel.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
 
