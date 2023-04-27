@@ -63,7 +63,7 @@ burning_ship_gallery:
     image_path: BSRepeat.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
-   - url: BSRepeat.png
+  - url: BSRepeat.png
     image_path: BSRepeat.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
