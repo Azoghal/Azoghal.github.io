@@ -2,6 +2,7 @@
 title: "Fractals"
 excerpt: "Lightning fast recap of my fractal explorations"
 collection: projects
+order: 1
 
 gallery1:
   - url: /images/csharp_mandel.jpg
@@ -14,7 +15,8 @@ gallery1:
     title: "Image 2 title caption"
 ---
 
-# Fractals
+## Introduction
+
 My interest with fractals started in 2017 when I was staying at my grandparents', and found an old book of fractals. Finding Daniel Shiffman's [*Nature of Code*](https://natureofcode.com/) website and [*The Coding Train*](https://www.youtube.com/@TheCodingTrain) YouTube channel prompted me to start writing my own fractal renderers. This post will be a lightning fast review of these renderers and other related experiments.
 
 ## Early Fractal Renderers
