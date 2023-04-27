@@ -13,6 +13,16 @@ gallery1:
     image_path: /images/java_mandel.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+
+gallery2:
+  - url: /images/csharp_mandel.jpg
+    image_path: /images/csharp_mandel.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /images/java_mandel.png
+    image_path: /images/java_mandel.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 ## Introduction
@@ -21,17 +31,18 @@ My interest with fractals started in 2017 when I was staying at my grandparents'
 
 ## Early Fractal Renderers
 
-<!-- <div><image src="../images/csharp_mandel.jpg"/><image  src="../images/java_mandel.png"/></div> -->
 
 {% include gallery1 caption="Mandelbrot renderers, 2017 (C#, Java, Processing)." %}
-
-
 
 My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. The Processing version of the renderer could be navigated naturally using the mouse, and had optimizations like increasing the number of iterations (i.e. accuracy of the fractal's shape) with the level of zoom. 
 
 ## Other Fractals
 
-While 
+{% include gallery2 caption="L-Systems and prototype Mandelbrot poster." %}
+
+I came across [Lindenmayer Systems](https://en.wikipedia.org/wiki/L-system) and generated a number of different fractals using a basic stack based approach. I also tried rendering the Mandelbrot set in a different manner, intending to turn it into a poster of some sort.
+
+I was interested upon revisiting the wikipedia article to read about its place in the family of formal grammars and variations upon the original formulation. I might 
 
 ## Better Renderers
 
