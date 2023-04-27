@@ -1,6 +1,6 @@
 ---
 title: "Fractals"
-excerpt: "I've made various fractal renderers over the years."
+excerpt: "Lightning fast recap of my fractal explorations"
 collection: projects
 ---
 
@@ -9,11 +9,13 @@ My interest with fractals started in 2017 when I was staying at my grandparents'
 
 ## Early Fractal Renderers
 
-<div><image src="../images/csharp_mandel.jpg"><image  src="../images/java_mandel.png"></div>
+<div><image src="../images/csharp_mandel.jpg"/><image  src="../images/java_mandel.png"/></div>
 Mandelbrot renderers, 2017 (C#, Java, Processing).
 My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. 
 
 ## Other Fractals
+
+While 
 
 ## Better Renderers
 
