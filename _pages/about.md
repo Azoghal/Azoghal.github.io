@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science grad (University of Cambridge, 2022) and software engineer based in the UK. Python and C++ are my current workhorses.
+I'm a Computer Science grad (University of Cambridge, 2022) and software engineer based in the UK. Python and C++ are my current go-to languages.
 
 I am currently working on Bassoon (my toy programming language), training RNNs to generate cricket commentary, and building a web app to (hopefully) help you find your favourite song *ever* *†.
 
