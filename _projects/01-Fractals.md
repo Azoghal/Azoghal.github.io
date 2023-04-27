@@ -23,7 +23,7 @@ My interest with fractals started in 2017 when I was staying at my grandparents'
 
 <!-- <div><image src="../images/csharp_mandel.jpg"/><image  src="../images/java_mandel.png"/></div> -->
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery1 caption="This is a sample gallery with **Markdown support**." %}
 
 Mandelbrot renderers, 2017 (C#, Java, Processing).
 My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. The Processing version of the renderer could be navigated naturally using the mouse, and had optimizations like increasing the number of iterations (i.e. accuracy of the fractal's shape) with the level of zoom. 
