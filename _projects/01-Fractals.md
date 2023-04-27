@@ -38,7 +38,7 @@ My very first attempt used C# and .NET libraries, and was as clunky as it could 
 
 ## Other Fractals
 
-{% include gallery id="gallery2 caption="L-Systems and prototype Mandelbrot poster." %}
+{% include gallery id="gallery2" caption="L-Systems and prototype Mandelbrot poster." %}
 
 I came across [Lindenmayer Systems](https://en.wikipedia.org/wiki/L-system) and generated a number of different fractals using a basic stack based approach. I also tried rendering the Mandelbrot set in a different manner, intending to turn it into a poster of some sort.
 
