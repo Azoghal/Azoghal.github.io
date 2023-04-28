@@ -32,6 +32,14 @@ gallery2:
     image_path: tree.gif
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+  - url: menger.gif
+    image_path: menger.gif
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: menger-inverted.gif
+    image_path: menger-inverted.gif
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
   # - url: poster.png
   #   image_path: poster.png
   #   alt: "placeholder image 2"
@@ -133,15 +141,13 @@ My very first attempt used C# and .NET libraries, and was as clunky as it could 
 ## Other Fractals
 
 {% include gallery id="gallery2" caption="L-Systems, 2017 (Java, Processing)" %}
-I came across [Lindenmayer Systems](https://en.wikipedia.org/wiki/L-system) and generated a number of different fractals using a basic stack based approach. I also tried rendering the Mandelbrot set in a different manner, intending to turn it into a poster of some sort.
+I came across [Lindenmayer Systems](https://en.wikipedia.org/wiki/L-system) and generated a number of different fractals using a basic stack based approach. I also tried rendering the basic Menger Sponge and Inverted Menger Sponge 3D fractals.
 
 I was interested upon revisiting L-Systems to read about their place in the family of formal grammars and variations upon the original formulation. I might explore these further soon.
 
 ## Better Renderers
 
 {% include gallery id="mandel_gallery" caption="Colourful Mandelbrot Sets and Julia Sets, 2018 (Java, Processing)" %}
-
-{% include gallery id="coursework_gallery" caption="The FracTool renderer, showing simultaneous views of the Mandelbrot set and a Julia set of a selected point from it, 2018 (Java, Processing)" %}
 
 My next fractal project evolved into my project for A-Level Computing coursework. This is the most fully featured renderer I've made so far. It could render the Mandelbrot set and the Burning Ship Fractal, as well as the Julia sets that correspond to each point of those sets. It also had:
 * GUI
@@ -151,8 +157,19 @@ My next fractal project evolved into my project for A-Level Computing coursework
 * Multiple Colour Palettes
 * Looping Colour Palettes
 
+{% include gallery id="coursework_gallery" caption="The FracTool renderer, showing simultaneous views of the Mandelbrot set and a Julia set of a selected point from it, 2018 (Java, Processing)" %}
+
+There are fractals generated in the same fashion as the Mandelbrot set but with different equations.
 
 {% include gallery id="burning_ship_gallery" caption="Burning Ship Fractal, Burning Ship Julia Sets, 2018 (Java, Processing)" %}
+
+| Fractal Name          | Equation        |
+| ----------------------| ----------------|
+| Mandelbrot Set        |  z = z^2 + c    |
+| Burning Ship Fractal  |  z = abs(z)^2+c |
+| Multibrot Set         |  z = z^d + c    |
+| "Burning" Multibrot   |  z = abs(z)^d+c |
+
 
 ## Next Projects
 
