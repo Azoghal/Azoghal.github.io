@@ -141,7 +141,7 @@ sactal_gallery:
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: sactalBMB.png
-    image_path: sactalM.png
+    image_path: sactalBMB.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
 
