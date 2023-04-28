@@ -144,6 +144,12 @@ sactal_gallery:
     image_path: sactalM.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+
+buddha_gallery:
+  - url: buddha.png
+    image_path: buddha.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
 ---
 
 ## Introduction
@@ -179,6 +185,8 @@ My next fractal project evolved into my project for A-Level Computing coursework
 
 {% include gallery id="burning_ship_gallery" caption="Burning Ship Fractal, Burning Ship Julia Sets, 2018 (Java, Processing)" %}
 
+## Other Escape Time Fractals
+
 There are fractals generated in the same fashion as the Mandelbrot set but with different equations.
 
 | Fractal Name          | Equation        |
@@ -189,6 +197,12 @@ There are fractals generated in the same fashion as the Mandelbrot set but with 
 | "Burning" Multibrot   |  z = abs(z)^d+c |
 
 <!-- {% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot, Burning Multibrot, 2018 (Java, Processing)" %} -->
+
+## Buddhabrot
+
+A different method of rendering the Mandelbrot set that I want to explore further in the future. In this method, pixels are coloured based on the frequency of that pixel's location being "visited" by the iteration of a random sample of points in the complex plane. Only points that escape to infinity (hence are not in the Mandelbrot set) contribute to the frequency counts.
+
+{% include gallery id="buddha_gallery" caption="Buddhabrot with RGB escape times of 20, 2000, 20000" %}
 
 
 ## Next Projects
