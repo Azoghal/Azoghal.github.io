@@ -204,7 +204,7 @@ There are fractals generated in the same fashion as the Mandelbrot set but with 
 | Multibrot Set         |  z = z^d + c    |
 | "Burning" Multibrot   |  z = abs(z)^d+c |
 
-{% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot (d=2), Burning Multibrot (d=2), 2018 (Java, Processing)" %}
+{% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot (d=2), Burning Multibrot (d=2), Multibrot (d=2.5), Multibrot (d=3.5) 2018 (Java, Processing)" %}
 
 ## Buddhabrot
 
