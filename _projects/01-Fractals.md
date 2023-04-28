@@ -144,6 +144,14 @@ sactal_gallery:
     image_path: sactalBMB.png
     alt: "placeholder image 2"
     title: "Image 2 title caption"
+  - url: sactalMH2.png
+    image_path: sactalMH2.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: sactalMH3.png
+    image_path: sactalMH3.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 
 buddha_gallery:
   - url: buddha.png
@@ -196,7 +204,7 @@ There are fractals generated in the same fashion as the Mandelbrot set but with 
 | Multibrot Set         |  z = z^d + c    |
 | "Burning" Multibrot   |  z = abs(z)^d+c |
 
-{% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot, Burning Multibrot, 2018 (Java, Processing)" %}
+{% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot (d=2), Burning Multibrot (d=2), 2018 (Java, Processing)" %}
 
 ## Buddhabrot
 
