@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Art"
 excerpt: "A collection of algorithmic art."
-collection: projects
+collection: Projects
 order: 2
 ---
 

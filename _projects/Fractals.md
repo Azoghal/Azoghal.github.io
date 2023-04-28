@@ -1,7 +1,7 @@
 ---
 title: "Fractals"
 excerpt: "Lightning fast recap of my fractal explorations"
-collection: projects
+collection: Projects
 order: 1
 
 gallery1:
