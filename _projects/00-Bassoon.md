@@ -2,6 +2,7 @@
 title: "Bassoon"
 excerpt: "Compiler for a simple typed procedural language, generating LLVM IR, or executables for (hopefully) any major platform."
 collection: Projects
+permalink: /projects/Bassoon/
 order: 0
 ---
 

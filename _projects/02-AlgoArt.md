@@ -2,6 +2,7 @@
 title: "Algorithmic Art"
 excerpt: "A collection of algorithmic art."
 collection: Projects
+permalink: /projects/AlgoArt/
 order: 2
 ---
 

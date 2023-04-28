@@ -2,6 +2,7 @@
 title: "Fractals"
 excerpt: "Lightning fast recap of my fractal explorations"
 collection: Projects
+permalink: /projects/Fractals/
 order: 1
 
 gallery1:
