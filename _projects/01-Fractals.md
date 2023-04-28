@@ -126,6 +126,24 @@ burning_ship_gallery:
     image_path: BJulia4.png
     alt: "placeholder image 3"
     title: "Image 2 title caption"
+
+sactal_gallery:
+  - url: sactalM.png
+    image_path: sactalM.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: sactalB.png
+    image_path: sactalB.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: sactalMB.png
+    image_path: sactalMB.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: sactalBMB.png
+    image_path: sactalM.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
 ---
 
 ## Introduction
@@ -159,9 +177,9 @@ My next fractal project evolved into my project for A-Level Computing coursework
 
 {% include gallery id="coursework_gallery" caption="The FracTool renderer, showing simultaneous views of the Mandelbrot set and a Julia set of a selected point from it, 2018 (Java, Processing)" %}
 
-There are fractals generated in the same fashion as the Mandelbrot set but with different equations.
-
 {% include gallery id="burning_ship_gallery" caption="Burning Ship Fractal, Burning Ship Julia Sets, 2018 (Java, Processing)" %}
+
+There are fractals generated in the same fashion as the Mandelbrot set but with different equations.
 
 | Fractal Name          | Equation        |
 | ----------------------| ----------------|
@@ -169,6 +187,8 @@ There are fractals generated in the same fashion as the Mandelbrot set but with 
 | Burning Ship Fractal  |  z = abs(z)^2+c |
 | Multibrot Set         |  z = z^d + c    |
 | "Burning" Multibrot   |  z = abs(z)^d+c |
+
+{% include gallery id="sactal_gallery" caption="Mandelbrot, Burning Ship, Multibrot, "Burning" Multibrot, 2018 (Java, Processing)" %}
 
 
 ## Next Projects
