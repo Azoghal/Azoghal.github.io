@@ -8,156 +8,156 @@ order: 1
 gallery1:
   - url: csharp_mandel.jpg
     image_path: csharp_mandel.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "C# Mandelbrot"
+    title: "C# Mandelbrot"
   - url: java_mandel.png
     image_path: java_mandel.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Java Mandelbrot"
+    title: "Java Mandelbrot"
 
 gallery2:
   - url: dragon-curve.gif
     image_path: dragon-curve.gif
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Dragon Curve L-System"
+    title: "Dragon Curve"
   - url: sier-arrow.gif
     image_path: sier-arrow.gif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Sierpinski Arrowhead L-system"
+    title: "Sierpinski Arrowhead"
   - url: koch.gif
     image_path: koch.gif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Koch Snowflake"
+    title: "Koch Snowflake"
   - url: tree.gif
     image_path: tree.gif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "L-system binary tree"
+    title: "L-system binary tree"
   - url: menger.gif
     image_path: menger.gif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Menger Sponge"
+    title: "Menger Sponge"
   - url: menger-inverted.gif
     image_path: menger-inverted.gif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Inverted Menger Sponge"
+    title: "Inverted Menger Sponge"
   # - url: poster.png
   #   image_path: poster.png
-  #   alt: "placeholder image 2"
-  #   title: "Image 2 title caption"
+  #   alt: ""
+  #   title: ""
   # - url: spike-lsystem.png
   #   image_path: spike-lsystem.png
-  #   alt: "placeholder image 2"
-  #   title: "Image 2 title caption"
+  #   alt: ""
+  #   title: ""
 
 coursework_gallery:
   - url: FracTool.png
     image_path: FracTool.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "FracTool Example"
+    title: "Mandelbrot Set and Julia"
   - url: FracTool2.png
     image_path: FracTool2.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "FracTool Example 2"
+    title: "Burning Ship Julia"
 
 mandel_gallery:
   - url: fractalBlueSim.png
     image_path: fractalBlueSim.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Mandelbrot Set Detail"
+    title: "Mandelbrot Set Detail"
   - url: fractalItSim.png
     image_path: fractalItSim.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Mandelbrot set with too few iterations"
+    title: "Too few iterations"
   - url: fractalRedSim.png
     image_path: fractalRedSim.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Mandelbrot set detail red"
+    title: "Mandelbrot set detail"
   - url: fractalSpeedSim.png
     image_path: fractalSpeedSim.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Mandelbrot set high contrast"
+    title: "Mandelbrot set fast palette"
   - url: julia1.png
     image_path: julia1.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Julia Set"
+    title: "Julia Set"
   - url: julia2.png
     image_path: julia2.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Rainbow Julia Set"
+    title: "Rainbow Julia Set"
   - url: julia3.png
     image_path: julia3.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Julia Set for point outside of mandelbrot"
+    title: "Julia Set dust"
 
 burning_ship_gallery:
   - url: BSWhole.png
     image_path: BSWhole.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Fractal"
+    title: "Burning Ship Fractal"
   - url: BSShips.png
     image_path: BSShips.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Detail"
+    title: "Burning Ship Detail"
   - url: BSRepeat.png
     image_path: BSRepeat.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Detail 2"
+    title: "Burning Ship Detail 2"
   - url: fractalBarcode.png
     image_path: fractalBarcode.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Detail Barcode"
+    title: "Burning Ship Detail Barcode"
   - url: BSColumn.png
     image_path: BSColumn.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Detail Pillar"
+    title: "Burning Ship Detail Pillar"
   - url: Looks3d.png
     image_path: Looks3d.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Detail 3"
+    title: "Burning Ship Detail 3"
   - url: BJulia1.png
     image_path: BJulia1.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Burning Ship Julia 1"
+    title: "Burning Ship Julia 1"
   - url: BJulia3.png
     image_path: BJulia3.png
-    alt: "placeholder image 3"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Julia 2"
+    title: "Burning Ship Julia 2"
   - url: BJulia4.png
     image_path: BJulia4.png
-    alt: "placeholder image 3"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Julia 3"
+    title: "Burning Ship Julia 3"
 
 sactal_gallery:
   - url: sactalM.png
     image_path: sactalM.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Mandelbrot Set"
+    title: "Mandelbrot Set"
   - url: sactalB.png
     image_path: sactalB.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Ship Fractal"
+    title: "Burning Ship Fractal"
   - url: sactalMB.png
     image_path: sactalMB.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Multibrot d=2"
+    title: "Multibrot d=2"
   - url: sactalBMB.png
     image_path: sactalBMB.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Burning Multibrot d=2"
+    title: "Burning Multibrot d=2"
   - url: sactalMH2.png
     image_path: sactalMH2.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Multibrot d=2.5"
+    title: "Multibrot d=2.5"
   - url: sactalMH3.png
     image_path: sactalMH3.png
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Multibrot d=3.5"
+    title: "Multibrot d=3.5"
 
 buddha_gallery:
   - url: buddha.png
     image_path: buddha.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Buddhabrot"
+    title: "Buddhabrot"
 ---
 
 ## Introduction
