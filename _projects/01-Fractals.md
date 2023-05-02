@@ -6,8 +6,8 @@ permalink: /projects/Fractals/
 order: 1
 
 header_gallery:
-  - url: budha.png
-    image_path: budha.png
+  - url: buddha.png
+    image_path: buddha.png
     alt: "Buddhabrot"
     title: "Buddhabrot"
 
