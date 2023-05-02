@@ -5,11 +5,6 @@ collection: Projects
 permalink: /projects/AlgoArt/
 order: 2
 
-- url: algoart/.png
-    image_path: algoart/.png
-    alt: ""
-    title: ""
-
 voronoi_gallery:
   - url: algoart/Voronoi.png
     image_path: algoart/Voronoi.png
