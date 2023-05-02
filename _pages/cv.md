@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Find full CV [here](http://azoghal.github.io/files/sbeercv-02-05-23.pdf).
+
 Education
 ======
 * BA in Computer Science University of Cambridge, 2022
