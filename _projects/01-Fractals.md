@@ -5,6 +5,12 @@ collection: Projects
 permalink: /projects/Fractals/
 order: 1
 
+header_gallery:
+  - url: budha.png
+    image_path: budha.png
+    alt: "Buddhabrot"
+    title: "Buddhabrot"
+
 gallery1:
   - url: csharp_mandel.jpg
     image_path: csharp_mandel.jpg
@@ -164,8 +170,9 @@ buddha_gallery:
 
 My interest with fractals started in 2017 when I was staying with my grandparents, and found an old book of fractals. Finding Daniel Shiffman's [*Nature of Code*](https://natureofcode.com/) website and [*The Coding Train*](https://www.youtube.com/@TheCodingTrain) YouTube channel soon after prompted me to start writing my own fractal renderers. This post will be a lightning fast review of these renderers and other related experiments.
 
-## Early Fractal Renderers
+{% include gallery id="header_gallery" caption="Buddhabrot" %}
 
+## Early Fractal Renderers
 
 {% include gallery id="gallery1" caption="Mandelbrot renderers, 2017 (C#, Java, Processing)" %}
 My very first attempt used C# and .NET libraries, and was as clunky as it could possibly have been. I then moved onto the more suitable Processing library for Java that I continued to use for many other projects. The Processing version of the renderer could be navigated naturally using the mouse, and had optimizations like increasing the number of iterations (i.e. accuracy of the fractal's shape) with the level of zoom. 
