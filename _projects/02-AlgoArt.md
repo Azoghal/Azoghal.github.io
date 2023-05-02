@@ -5,6 +5,12 @@ collection: Projects
 permalink: /projects/AlgoArt/
 order: 2
 
+header_gallery:
+  - url: algoart/pinkyellowlonglife.png
+    image_path: algoart/pinkyellowlonglife.png
+    alt: "Vectorfield with long life particles"
+    title: "Vectorfield with long life particles"
+
 voronoi_gallery:
   - url: algoart/Voronoi.png
     image_path: algoart/Voronoi.png
@@ -42,9 +48,17 @@ voronoi_gallery:
     image_path: algoart/logogreen.png
     alt: "green circle triangle voronoi"
     title: "green circle triangle voronoi"
+
+vector_field_gallery:
+  - url: algoart/
+    image_path: algoart/.png
+    alt: ""
+    title: ""
 ---
 
 A collection of pieces created with Java and Processing in 2017/18.
+
+{% include gallery id="header_gallery" caption="Vector Field with long life particles." %}
 
 ### Voronoi
 
