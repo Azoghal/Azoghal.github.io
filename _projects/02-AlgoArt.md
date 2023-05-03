@@ -103,7 +103,7 @@ colour_vector_field_gallery:
     alt: "Blue vector field with line start"
     title: "Blue vector field with line start"
   - url: algoart/buespread.png
-    image_path: algoart/bluetrapped.png
+    image_path: algoart/buespread.png
     alt: "Blue vector field  2 with line start"
     title: "Blue vector field 2 with line start"
   - url: algoart/bowlvory.png
