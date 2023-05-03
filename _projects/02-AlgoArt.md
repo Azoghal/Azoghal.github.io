@@ -218,8 +218,8 @@ boids_gallery_3:
     image_path: algoart/vfsmoothgreen2.png
     alt: "Source image"
     title: "Source image"
-  - url: algoart/vfsmoothgreenboids.png
-    image_path: algoart/vfsmoothgreenboids.png
+  - url: algoart/vfsmoothgreenboids2.png
+    image_path: algoart/vfsmoothgreenboids2.png
     alt: "Derived vector field"
     title: "Derived vector field"
 
