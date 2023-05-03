@@ -174,6 +174,64 @@ noise_circle_gif_gallery:
     image_path: algoart/yellownoisevectors.gif
     alt: "Yellow noise vector field"
     title: "Yellow noise vector field"
+
+more_colour_vector_field_gallery:
+  - url: algoart/vfsmooth.png
+    image_path: algoart/vfsmooth.png
+    alt: "Noise vector field"
+    title: "Noise vector field"
+  - url: algoart/vfsmoothgreen.png
+    image_path: algoart/vfsmoothgreen.png
+    alt: "Noise vector field"
+    title: "Noise vector field"
+  - url: algoart/vfsmoothgreenblue.png
+    image_path: algoart/vfsmoothgreenblue.png
+    alt: "Noise vector field"
+    title: "Noise vector field"
+  - url: algoart/vfsmoothpinkpower.png
+    image_path: algoart/vfsmoothpinkpower.png
+    alt: "Noise vector field"
+    title: "Noise vector field"
+
+boids_gallery_1:
+  - url: algoart/logo2.png
+    image_path: algoart/logo2.png
+    alt: "Source image"
+    title: "Source image"
+  - url: algoart/logoboids.png
+    image_path: algoart/logoboids.png
+    alt: "Derived vector field"
+    title: "Derived vector field"
+
+boids_gallery_2:
+  - url: algoart/TriangleVoronoi2.png
+    image_path: algoart/TriangleVoronoi2.png
+    alt: "Source image"
+    title: "Source image"
+  - url: algoart/TriangleVoronoiBoids.png
+    image_path: algoart/TriangleVoronoiBoids.png
+    alt: "Derived vector field"
+    title: "Derived vector field"
+
+boids_gallery_3:
+  - url: algoart/vfsmoothgreen2.png
+    image_path: algoart/vfsmoothgreen2.png
+    alt: "Source image"
+    title: "Source image"
+  - url: algoart/vfsmoothgreenboids.png
+    image_path: algoart/vfsmoothgreenboids.png
+    alt: "Derived vector field"
+    title: "Derived vector field"
+
+boids_gallery_4:
+  - url: algoart/Voronoi2.png
+    image_path: algoart/Voronoi2.png
+    alt: "Source image"
+    title: "Source image"
+  - url: algoart/voronoiboids.png
+    image_path: algoart/voronoiboids.png
+    alt: "Derived vector field"
+    title: "Derived vector field"
 ---
 
 A collection of pieces created with Java and Processing in 2017/18.
@@ -196,8 +254,19 @@ The [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) is based on
 
 {% include gallery id="colour_vector_field_gallery" caption="Coloured vector fields" %}
 
+{% include gallery id="more_colour_vector_field_gallery" caption="Vector fields" %}
+
 {% include gallery id="angle_vector_field_gallery" caption="Vector fields with constrained angles" %}
 
 #### Image Derived Vector Fields
+
+{% include gallery id="boids_gallery_1" caption="Boids on derived vector field." %}
+
+{% include gallery id="boids_gallery_2" caption="Boids on derived vector field." %}
+
+{% include gallery id="boids_gallery_3" caption="Boids on derived vector field." %}
+
+{% include gallery id="boids_gallery_4" caption="Boids on derived vector field." %}
+
 
 ### Marching Squares
