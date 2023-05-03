@@ -80,10 +80,10 @@ angle_vector_field_gallery:
     image_path: algoart/pink6angles.png
     alt: "Pink vector field, 6 angles"
     title: "Pink vector field, 6 angles"
-  - url: algoart/yellow5angles.png
-    image_path: algoart/yellow5angles.png
-    alt: "Yellow vector field, 5 angles"
-    title: "Yellow vector field, 5 angles"
+  - url: algoart/yellow4angles.png
+    image_path: algoart/yellow4angles.png
+    alt: "Yellow vector field, 4 angles"
+    title: "Yellow vector field, 4 angles"
   - url: algoart/purple4angles.png
     image_path: algoart/purple4angles.png
     alt: "Purple vector field, 4 angles"
@@ -102,8 +102,8 @@ colour_vector_field_gallery:
     image_path: algoart/bluetrapped.png
     alt: "Blue vector field with line start"
     title: "Blue vector field with line start"
-  - url: algoart/buespread.png
-    image_path: algoart/buespread.png
+  - url: algoart/bluespread.png
+    image_path: algoart/bluespread.png
     alt: "Blue vector field  2 with line start"
     title: "Blue vector field 2 with line start"
   - url: algoart/bowlvory.png
