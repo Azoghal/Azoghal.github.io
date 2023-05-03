@@ -232,6 +232,41 @@ boids_gallery_4:
     image_path: algoart/voronoiboids.png
     alt: "Derived vector field"
     title: "Derived vector field"
+
+
+marching_squares_gallery:
+  - url: algoart/angleContour.png
+    image_path: algoart/angleContour.png
+    alt: "Marching square contour lines"
+    title: "Marching square contour lines"
+  - url: algoart/smoothcontour.png
+    image_path: algoart/smoothcontour.png
+    alt: "Interpolated marching square contour lines"
+    title: "Interpolated marching square contour lines"
+  - url: algoart/dijkstrabiggap.gif
+    image_path: algoart/dijkstrabiggap.gif
+    alt: "Animated marching square contours"
+    title: "Animated marching square contours"
+  - url: algoart/dijkstrastrobeangle.gif
+    image_path: algoart/dijkstrastrobeangle.gif
+    alt: "Animated marching square contours"
+    title: "Animated marching square contours"
+  - url: algoart/dijkstracontourN.gif
+    image_path: algoart/dijkstracontourN.gif
+    alt: "Animated marching square contours"
+    title: "Animated marching square contours"
+  - url: algoart/dijkstracontourS.gif
+    image_path: algoart/dijkstracontourS.gif
+    alt: "Animated interpolated marching square contours"
+    title: "Animated interpolated marching square contours"
+  - url: algoart/dijkstrastrobesmooth.gif
+    image_path: algoart/dijkstrastrobesmooth.gif
+    alt: "Animated interpolated marching square contours"
+    title: "Animated interpolated marching square contours"
+  - url: algoart/dijkstradifference.gif
+    image_path: algoart/dijkstradifference.gif
+    alt: "Comparison of interpolated and not"
+    title: "Comparison of interpolated and not"
 ---
 
 A collection of pieces created with Java and Processing in 2017/18.
@@ -268,5 +303,6 @@ The [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) is based on
 
 {% include gallery id="boids_gallery_4" caption="Boids on derived vector field." %}
 
-
 ### Marching Squares
+
+{% include gallery id="marching_squares_gallery" caption="Boids on derived vector field." %}
