@@ -106,6 +106,74 @@ colour_vector_field_gallery:
     image_path: algoart/bluetrapped.png
     alt: "Blue vector field  2 with line start"
     title: "Blue vector field 2 with line start"
+  - url: algoart/bowlvory.png
+    image_path: algoart/bowlvory.png
+    alt: "Voronoi bowl field"
+    title: "Voronoi bowl field"
+  - url: algoart/bowlvory.png
+    image_path: algoart/bowlvory.png
+    alt: "Voronoi bowl field"
+    title: "Voronoi bowl field"
+  - url: algoart/inwardblue.png
+    image_path: algoart/inwardblue.png
+    alt: "Noisy bowl field"
+    title: "Noisy bowl field"
+  - url: algoart/inwards.png
+    image_path: algoart/inwards.png
+    alt: "Noisy bowl field 2"
+    title: "Noisy bowl field 2"
+  - url: algoart/straggl.png
+    image_path: algoart/straggl.png
+    alt: "Noisy Swirl field"
+    title: "Noisy Swirl field"
+  - url: algoart/swrilblye.png
+    image_path: algoart/swrilblye.png
+    alt: "Noisy Swirl field 2"
+    title: "Noisy Swirl field 2"
+  - url: algoart/less straggle.png
+    image_path: algoart/less straggle.png
+    alt: "Noisy swirl field 3"
+    title: "Noisy swirl field 3"
+  - url: algoart/swirlvor.png
+    image_path: algoart/swirlvor.png
+    alt: "Voronoi swirl field"
+    title: "Voronoi swirl field"
+  - url: algoart/pinkbig.png
+    image_path: algoart/pinkbig.png
+    alt: "Large scale noise field"
+    title: "Large scale noise field"
+  - url: algoart/purplesmall.png
+    image_path: algoart/purplesmall.png
+    alt: "Small scale noise field"
+    title: "Small scale noise field"
+  - url: algoart/vfvoronoiCentre.png
+    image_path: algoart/vfvoronoiCentre.png
+    alt: "Voronoi field, center line"
+    title: "Voronoi field, center line"
+  - url: algoart/voiry short.png
+    image_path: algoart/voiry short.png
+    alt: "Voronoi field, short time"
+    title: "Voronoi field, short time"
+  - url: algoart/voiry less short.png
+    image_path: algoart/voiry less short.png
+    alt: "Voronoi field, medium time"
+    title: "Voronoi field, medium time"
+  - url: algoart/voirylong.png
+    image_path: algoart/voirylong.png
+    alt: "Voronoi field, long time"
+    title: "Voronoi field, long time"
+  
+voronoi_circle_gif_gallery:
+  - url: algoart/redvoronoivectors.gif
+    image_path: algoart/redvoronoivectors.gif
+    alt: "Red voronoi vector field"
+    title: "Red voronoi vector field"
+
+noise_circle_gif_gallery:
+  - url: algoart/yellownoisevectors.gif
+    image_path: algoart/yellownoisevectors.gif
+    alt: "Yellow noise vector field"
+    title: "Yellow noise vector field"
 ---
 
 A collection of pieces created with Java and Processing in 2017/18.
@@ -119,6 +187,16 @@ The [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) is based on
 {% include gallery id="voronoi_gallery" caption="Various Voronoi diagrams with different seed point arrangements and distance functions, 2018 (Java, Processing)" %}
 
 ### Vector Fields
+
+{% include gallery id="voronoi_circle_gif_gallery" caption="Voronoi noise field gif" %}
+
+{% include gallery id="noise_circle_gif_gallery" caption="Perlin noise field gif" %}
+
+{% include gallery id="bw_vector_field_gallery" caption="Black and white vector fields" %}
+
+{% include gallery id="colour_vector_field_gallery" caption="Coloured vector fields" %}
+
+{% include gallery id="angle_vector_field_gallery" caption="Vector fields with constrained angles" %}
 
 #### Image Derived Vector Fields
 
