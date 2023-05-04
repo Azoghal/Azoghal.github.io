@@ -33,7 +33,6 @@ All of the main aims have been achieved and Bassoon programs can be compiled and
 A really helpful thing about the LLVM library is that it makes it very easy to allow standard functions like `putchar()` to be used by the compiler.
 
 
-
 ## Example Programs
 
 ### Mandelbrot Set
@@ -51,7 +50,6 @@ Try some arrays
 Try some exceptions
 
 Or move onto a new language
-
 
 ## Lessons Learnt
 
