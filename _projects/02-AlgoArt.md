@@ -281,6 +281,8 @@ The [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) is based on
 
 ### Vector Fields
 
+Here are some examples of particles being released onto vector fields. The particles have momentum and the vector fields apply forces. I experimented with various ways to generate vector fields - standard Perlin noise, spirals, bowls, and most interestingly a "Voronoi" vector field where each Voronoi cell is its own small spiral field. I composed these fields together in many of these examples.
+
 {% include gallery id="voronoi_circle_gif_gallery" caption="Voronoi noise field gif" %}
 
 {% include gallery id="noise_circle_gif_gallery" caption="Perlin noise field gif" %}
