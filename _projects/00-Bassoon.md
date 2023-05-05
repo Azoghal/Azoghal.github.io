@@ -45,8 +45,9 @@ A really helpful thing about the LLVM library is that it makes it very easy to a
 
 Simply rendered with no optimisations. Character lookup is implemented as a sequence of `if` statements due to lack of any dictionary/array structures. 
 
-{% include gallery id="mandel_gallery" caption="Mandelbrot Set, 2022 (Bassoon)" %}
+[Source Code](http://azoghal.github.io/files/brot.bs).
 
+{% include gallery id="mandel_gallery" caption="Mandelbrot Set, 2022 (Bassoon)" %}
 
 ## Next Steps
 
