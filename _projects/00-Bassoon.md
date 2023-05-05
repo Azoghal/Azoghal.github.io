@@ -32,10 +32,34 @@ Some extension aims that I would like to pursue in this or my next language are 
 
 ## So Far
 
-All of the main aims have been achieved and Bassoon programs can be compiled and executed. Currently the only inputs are C-style arguments when calling the executable, and the only output is printing a single character at a time to `stdout`. This is sufficient for proof of concept programs, and can be easily expanded with further input and output options.
+All of the main aims have been achieved and Bassoon programs can be compiled and executed. Currently the only inputs are C-style arguments when calling the executable, and the only output is printing a single character at a time to `stdout`. This is sufficient for proof of concept programs, and can be easily expanded with further input and output options. A key feature that is currently missing is binary boolean operations but these will be trivial to add.
 
 A really helpful thing about the LLVM library is that it makes it very easy to allow standard functions like `putchar()` to be used by the compiler.
 
+### Example Syntax
+
+```
+define fancyFunc(a of int, b of double) gives int as {
+    bool condition;
+    condition = b > 0.5;
+    if (condition) {
+        return fancyFunc(a);
+    }
+    else{
+        # this is a comment
+        while (not condition){
+            b = b - 0.1; 
+            a = a - 1;
+            condition = b > 0.5;
+        }
+        for (int i = 1; i < 12; a=a+1;){
+            a = a - i*b; # implicit cast
+        }
+        return a;
+    }
+    return -1;
+}
+```
 
 ## Example Programs
 
