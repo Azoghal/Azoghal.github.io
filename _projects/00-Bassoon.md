@@ -5,7 +5,7 @@ collection: Projects
 permalink: /projects/Bassoon/
 order: 0
 
-buddha_gallery:
+mandel_gallery:
   - url: mandel.png
     image_path: mandel.png
     alt: "Mandelbrot Set"
