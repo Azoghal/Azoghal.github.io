@@ -12,8 +12,6 @@ mandel_gallery:
     title: "Mandelrbot Set"
 ---
 
-Let's summarise the goals, achievements, next steps. Have some nice example programs and outputs. Also talk about design points and things to do next time round.
-
 ## Introduction
 
 My plan for Bassoon was to design my own simple language and implement a compiler for it using LLVM. In preparation I had done some smaller projects with C++ and followed the [*Kaleidoscope*](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html) tutorial to learn the basics of LLVM. My intention was to keep the scope of the language small, but have additional features that the *Kaleidoscope* tutorial did not cover so that I would have to solve some problems and come into contact with some new parts of the LLVM library.
@@ -58,6 +56,8 @@ Simply rendered with no optimisations. Character lookup is implemented as a sequ
 
 ## Lessons Learnt
 
-I learned and practiced a lot of aspects of maintaining larger C++ projects and CMake usage. In the future I want to use CMake and CTest for test suites rather than cobbling together my own solution. On the programming language side, I think that next time round I'll use something like [Bison](https://www.gnu.org/software/bison/) to generate a parser. As long as the grammar of the language is context free, *Bison* can automatically generate a parser for the language, which is helpful as it minimizes the effort required to parse new language features. I do think that it was valuable to implement the parser from scratch for Bassoon. 
+I learnt and practiced a lot of aspects of maintaining larger C++ projects and CMake usage. In the future I want to use CMake and CTest for test suites rather than cobbling together my own solution. On the programming language side, I think that next time round I'll use something like [Bison](https://www.gnu.org/software/bison/) to generate a parser. As long as the grammar of the language is context free, *Bison* can automatically generate a parser for the language, which is helpful as it minimizes the effort required to parse new language features. I do think that it was valuable to implement the parser from scratch for Bassoon. 
 
 While writing the code generator I kept coming back to the question of whether implementing my own typechecker was necessary, as any type errors would be picked up by the LLVM IR builder during codegen, without my manual checking of types in the AST. In the end I'm glad I persisted with my own typechecker, firstly because it was interesting to build, but also because it means that the language's frontend is a properly abstracted from the exact types offered by LLVM for example. The language definition contains typing rules, and these should hold whether using an LLVM compiler or any other. In reality the scope of Bassoon's use means that this issue is redundant.
+
+I used the visitor pattern a lot, for example in the AST visualiser, type checker and code generator. I enjoyed using the pattern and think it was very suitable for these use-cases, but think that my usage of stacks to effectively pass values between different calls to visitors (for example to get the value of a parent in the AST's visior call) feels a little clunky and prone to problems. 
