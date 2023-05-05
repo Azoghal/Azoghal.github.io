@@ -48,8 +48,6 @@ Simply rendered with no optimisations. Character lookup is implemented as a sequ
 {% include gallery id="mandel_gallery" caption="Mandelbrot Set, 2022 (Bassoon)" %}
 
 
-### 
-
 ## Next Steps
 
 Definitely need some more tests
