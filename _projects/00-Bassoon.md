@@ -4,6 +4,12 @@ excerpt: "Compiler for a simple typed procedural language, generating LLVM IR, o
 collection: Projects
 permalink: /projects/Bassoon/
 order: 0
+
+buddha_gallery:
+  - url: mandel.png
+    image_path: mandel.png
+    alt: "Mandelbrot Set"
+    title: "Mandelrbot Set"
 ---
 
 Let's summarise the goals, achievements, next steps. Have some nice example programs and outputs. Also talk about design points and things to do next time round.
@@ -37,7 +43,10 @@ A really helpful thing about the LLVM library is that it makes it very easy to a
 
 ### Mandelbrot Set
 
-Currently inexplicably back to front. An output issue or a more fundamental problem  .
+Simply rendered with no optimisations. Character lookup is implemented as a sequence of `if` statements due to lack of any dictionary/array structures. 
+
+{% include gallery id="mandel_gallery" caption="Mandelbrot Set, 2022 (Bassoon)" %}
+
 
 ### 
 
