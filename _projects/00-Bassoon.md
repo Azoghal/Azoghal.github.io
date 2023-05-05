@@ -51,14 +51,13 @@ Simply rendered with no optimisations. Character lookup is implemented as a sequ
 
 ## Next Steps
 
-Definitely need some more tests
-
-Try some arrays
-
-Try some exceptions
-
-Or move onto a new language
+* More complete test suite
+* Add `global` variables
+* Add array variables and indexed access
+* Add exceptions
 
 ## Lessons Learnt
 
-I learned and practiced a lot of aspects of maintaining larger C++ projects and CMake usage.
+I learned and practiced a lot of aspects of maintaining larger C++ projects and CMake usage. In the future I want to use CMake and CTest for test suites rather than cobbling together my own solution. On the programming language side, I think that next time round I'll use something like [Bison](https://www.gnu.org/software/bison/) to generate a parser. As long as the grammar of the language is context free, *Bison* can automatically generate a parser for the language, which is helpful as it minimizes the effort required to parse new language features. I do think that it was valuable to implement the parser from scratch for Bassoon. 
+
+While writing the code generator I kept coming back to the question of whether implementing my own typechecker was necessary, as any type errors would be picked up by the LLVM IR builder during codegen, without my manual checking of types in the AST. In the end I'm glad I persisted with my own typechecker, firstly because it was interesting to build, but also because it means that the language's frontend is a properly abstracted from the exact types offered by LLVM for example. The language definition contains typing rules, and these should hold whether using an LLVM compiler or any other. In reality the scope of Bassoon's use means that this issue is redundant.
